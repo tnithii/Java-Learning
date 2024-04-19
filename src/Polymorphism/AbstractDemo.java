@@ -24,6 +24,9 @@ public class AbstractDemo {
 		s1.setLb(lb);
 		c1.calculatearea(); 
 		s1.calculatearea();
+		Shape sh=new Circle();
+		
+		System.out.println("color is "+ sh.getColor());
 		
 
 	}

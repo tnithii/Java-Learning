@@ -1,6 +1,7 @@
 package Polymorphism;
 
 public abstract class Shape {
+
 	private String color;
 	private float radius;
 	private float lb;
@@ -13,7 +14,7 @@ public abstract class Shape {
 		return lb;
 	}
 
-	public void setRadius(float radius) {
+	public void setRadius(float radius) { 
 		this.radius = radius;
 	}
 

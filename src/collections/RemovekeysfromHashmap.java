@@ -20,10 +20,10 @@ hm.put(1, "nithya");
 hm.put(2, "selva");
 hm.put(3, "magi");
 hm.put(4, "yazh");
-//System.out.println(hm);
-//hm.remove(1);
+System.out.println(hm);
+hm.remove(1);
 hmnew.putAll(hm);
-//System.out.println(hmnew);
+System.out.println(hmnew);
 //int keyToBeRemoved=3;
 
 
@@ -33,12 +33,12 @@ hmnew.putAll(hm);
 	hm.remove(i);
 	
 	}*/
-	 hm.entrySet().removeIf(entry -> (entry.getKey())%2==0);
+	 hm.entrySet().removeIf(entry -> (entry.getKey())%2!=0);
 	 
 	System.out.println(hm);
 	
 }
 
-	}
+}
 
 

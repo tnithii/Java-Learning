@@ -44,7 +44,7 @@ System.out.println(g.startsWith("m "));*/
 		}*/
 		
 		
-int a=1;
+int a=3;
 int b=2;
 int c;
 System.out.println(b++);
