@@ -29,6 +29,7 @@ public class Alternatenumdiff {
 	                }
 	            }
 	        System.out.println(small_index);
+	        System.out.println("Hello"); 
 	    }
 	}
 
